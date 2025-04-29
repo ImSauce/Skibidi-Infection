@@ -11,7 +11,7 @@ void _openHome(BuildContext context) {
 class GameOverOverlay extends StatefulWidget {
   final VoidCallback onRestart;
 
-  const GameOverOverlay({Key? key, required this.onRestart}) : super(key: key);
+  const GameOverOverlay({super.key, required this.onRestart});
 
   @override
   _GameOverOverlayState createState() => _GameOverOverlayState();

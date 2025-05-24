@@ -15,7 +15,7 @@ This visual novel learning game was created using flutter that would help users 
 ## How to contribute
 1. Clone this repository:
     ```bash
-    git clone https://github.com/ImSauce/SkibidiInfection
+    git clone https://github.com/ImSauce/Skibidi-Infection
     ```
 2. Make changes and test
 3. Submit Pull Request with comprehensive description of changes

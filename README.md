@@ -11,11 +11,13 @@ This visual novel learning game was created using flutter that would help users 
     <img src="screenshots/Picture1.png" alt="Home" style="width: 300px; " />
     <img src="screenshots/Picture2.png" alt="sample" style="width: 300px; " />
     <img src="screenshots/Picture4.png" alt="sample" style="width: 300px; " />
-    <img src="screenshots/Picture5.png" alt="sample" style="width: 300px; " />
 </div>
+
+
 ## Controls
 
  <img src="screenshots/Picture3.png" alt="controls" style="width: 300px; " />
+ 
 
 ## How to run
 

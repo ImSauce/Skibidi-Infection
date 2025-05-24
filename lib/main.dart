@@ -16,7 +16,7 @@ void main() {
   runApp(const MyApp());
 
   WidgetsBinding.instance.addPostFrameCallback((_) {
-    SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
+    SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersive);
   });
 }
 

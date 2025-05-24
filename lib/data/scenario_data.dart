@@ -4,7 +4,7 @@ class ScenarioData {
     // add assets/ prefix in the sfx tenkyu bro read notes on monday.com
     {
       'dialogue':
-      "Before we start, Let's be familiar with the game!", // index 0
+      "Hello! We are the developers of the game.", // index 0
       'backgroundImage': 'assets/images/bg/inside9.jpg',
       'characterName': 'Developers',
       'bgm': 'assets/audio/bgm/tutorial.mp3',
@@ -13,7 +13,7 @@ class ScenarioData {
     },
     {
       'dialogue':
-      "Tap the speaker icon to activate text-to-speech!", // index 1
+      "Before we start, Let's be familiar with the game!", // index 1
       'backgroundImage': 'assets/images/bg/inside9.jpg',
       'characterName': 'Developers',
       'sfx': 'assets/audio/sfx/emotion/think.mp3',
@@ -21,7 +21,7 @@ class ScenarioData {
     },
     {
       'dialogue':
-      "Just keep tapping the icon to activate text-to-speech!", // index 2
+      "Pay great attention to the screen—this is crucial!", // index 2
       'backgroundImage': 'assets/images/bg/inside9.jpg',
       'characterName': 'Developers',
       'sfx': 'assets/audio/sfx/emotion/exclaim.mp3',

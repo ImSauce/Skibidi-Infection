@@ -7,7 +7,6 @@ import '../widgets/choice_overlay.dart';
 import '../widgets/gameover_overlay.dart';
 import '../widgets/help_overlay.dart';
 import '../widgets/player_progress.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:just_audio/just_audio.dart';
 import 'dart:async';
 import '../widgets/audio_debug.dart';
@@ -370,13 +369,7 @@ class _ScenarioScreenState extends State<ScenarioScreen>
           ScenarioData.scenarioData[_currentLine]['choices'] ?? [];
       _showLives = ScenarioData.scenarioData[_currentLine]['showLives'] ?? true;
 
-      if (_currentLine == 1) {
-        _showArrow = true;
-        _arrowLeft = screenWidth * 0.6;
-        _arrowTop = screenHeight * 0.08;
-        _arrowAsset = 'assets/icons/arrow-right.png';
-        _arrowRotation = 0.0;
-      } else if (_currentLine == 3) {
+      if (_currentLine == 3) {
         _showArrow = true;
         _arrowLeft = screenWidth * 0.6;
         _arrowTop = screenHeight * 0.01;
@@ -391,7 +384,7 @@ class _ScenarioScreenState extends State<ScenarioScreen>
       } else if (_currentLine == 11) {
         _showArrow = true;
         _arrowLeft = screenWidth * 0.6;
-        _arrowTop = screenHeight * 0.15;
+        _arrowTop = screenHeight * 0.07;
         _arrowAsset = 'assets/icons/arrow-right.png';
         _arrowRotation = 0.0;
       } else {
@@ -471,6 +464,11 @@ class _ScenarioScreenState extends State<ScenarioScreen>
             right: MediaQuery.of(context).size.width * 0.02,
             child: Column(
               children: [
+                ElevatedButton(
+                  onPressed: () => _openMenu(context),
+                  style: _buttonStyle(),
+                  child: Icon(Icons.menu, color: Colors.white, size: 30),
+                ),
 
                 const SizedBox(height: 3),
                 ElevatedButton(

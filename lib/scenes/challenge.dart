@@ -6,7 +6,6 @@ import '../widgets/choice_overlay.dart';
 import '../widgets/gameover_overlay.dart';
 import '../widgets/help_overlay.dart';
 import '../widgets/player_progress.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:just_audio/just_audio.dart';
 import 'dart:async';
 import '../widgets/audio_debug.dart';
@@ -209,7 +208,8 @@ class _ChallengeScreenState extends State<ChallengeScreen>
     if (newBgmPath != null && newBgmPath.isNotEmpty) {
       if (newBgmPath == _currentBgm) {
         if (!_bgm.playing) {
-          final resumePosition = _bgmPausedPositions[_currentBgm!] ?? Duration.zero;
+          final resumePosition =
+              _bgmPausedPositions[_currentBgm!] ?? Duration.zero;
           await _bgm.seek(resumePosition);
           await _bgm.play();
         }
@@ -301,13 +301,10 @@ class _ChallengeScreenState extends State<ChallengeScreen>
 
       if (ChallengeData.challengeData[nextLine]['isCredits'] == true) {
         Navigator.of(context).pushReplacement(
-          MaterialPageRoute(
-            builder: (context) => CreditChallengeScreen(),
-          ),
+          MaterialPageRoute(builder: (context) => CreditChallengeScreen()),
         );
         return;
       }
-
 
       _currentLine = nextLine;
 

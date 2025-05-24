@@ -117,6 +117,81 @@ class Options extends StatelessWidget {
                     ],
                   ),
 
+                  SizedBox(height: 20),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+
+                      GestureDetector(
+                        onTap: () {
+                          _openSettings(context, sfxPlayer);
+                        },
+                        child: Container(
+                          height: 120,
+                          width: 120,
+                          decoration: BoxDecoration(
+                            color: Colors.transparent,
+                            border: Border.all(color: Colors.white, width: 2),
+                          ),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              SizedBox(height: 30),
+                              Image.asset(
+                                'assets/icons/share.png',
+                                width: 60,
+                                height: 60,
+                              ),
+                              Spacer(),
+                              Text(
+                                'Share',
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 16,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+
+                      SizedBox(width: 20),
+                      GestureDetector(
+                        onTap: () {
+                          _openSettings(context, sfxPlayer);
+                        },
+                        child: Container(
+                          height: 120,
+                          width: 120,
+                          decoration: BoxDecoration(
+                            color: Colors.transparent,
+                            border: Border.all(color: Colors.white, width: 2),
+                          ),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              SizedBox(height: 30),
+                              Image.asset(
+                                'assets/icons/shiny-apple.png',
+                                width: 50,
+                                height: 50,
+                              ),
+                              Spacer(),
+                              Text(
+                                'Credits',
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 16,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+
+                    ],
+                  ),
+
                   Padding(
                     padding: const EdgeInsets.only(top: 150),
                     child: TextButton(

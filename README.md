@@ -7,7 +7,7 @@
 This visual novel learning game was created using flutter that would help users learn basic english grammar, science facts, and math eqations.
 
 ## Screenshots
-<div style="display: flex; gap: 10px;">
+<div style="display: flex; gap: 10px; width: 200px;">
     <img src="screenshots/Picture1.png" alt="Home"/>
     <img src="screenshots/Picture2.png" alt="sample"/>
     <img src="screenshots/Picture3.png" alt="controls"/>

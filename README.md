@@ -4,7 +4,7 @@
 
 
 ## Description
-This visual novel learning game was created using flutter that would help users learn basic english grammar, science facts, and math eqations.
+This visual novel learning game was created for educational purposes only. The application was developed using the Flutter framework. Its purpose is to help young users learn basic English grammar, science facts, and math equations.
 
 ## Screenshots
 <div style="display: flex; gap: 10px;">

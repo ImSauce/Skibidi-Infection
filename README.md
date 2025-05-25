@@ -44,3 +44,4 @@ This visual novel learning mobile game was created for educational purposes only
 - Character arts from [imsauce](https://x.com/imsauce_)
 - Icons from [flaticons](https://www.flaticon.com/)
 - BGM from [Blue archive OST](https://www.youtube.com/watch?v=SHkF48SgiSA&list=PLh6Ws4Fpphfqr7VL72Q6HK5Ole9YI54hv)
+- Skibidi Toilet from [DaFuq!?Boom!](https://www.youtube.com/@DaFuqBoom)

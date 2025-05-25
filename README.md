@@ -37,3 +37,10 @@ This visual novel learning mobile game was created for educational purposes only
     ```
 2. Make changes and test
 3. Submit Pull Request with comprehensive description of changes
+
+## Acknowledgments
+- Backgrounds from [Blue Archive Backgrounds](https://bluearchive.wiki/wiki/Category:Background_images)
+- Sfx from [Blue Archive sfx](https://bluearchive.wiki/wiki/Category:Sound_effects)
+- Character arts from [imsauce](https://x.com/imsauce_)
+- Icons from [flaticons](https://www.flaticon.com/)
+- BGM from [Blue archive OST](https://www.youtube.com/watch?v=SHkF48SgiSA&list=PLh6Ws4Fpphfqr7VL72Q6HK5Ole9YI54hv)

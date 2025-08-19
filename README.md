@@ -4,7 +4,7 @@
 
 
 ## Description
-This visual novel learning mobile game was created for educational purposes only. The application was developed using the Flutter framework. Its purpose is to help young users learn basic English grammar, science facts, and math equations while progressing through the game's story and interacting with the characters in the game.
+This visual novel learning mobile game was created for educational purposes only. The application was developed using the Flutter framework. Its purpose is to help young users learn basic English grammar, science facts, and math equations while progressing through the game's story and interacting with the characters in the game. [Download](https://github.com/ImSauce/Skibidi-Infection/releases/tag/v0.5)
 
 ## Screenshots
 <div style="display: flex; gap: 10px;">

@@ -32,13 +32,13 @@ This visual novel learning mobile game was created for educational purposes only
  
 
 ## System Requirments
-  Minimum: 
-  OS: Android 10+ 
-  CPU: Quad-core 1.8 GHz (Snapdragon 450 / Helio P22) 
-  RAM: 3 GB 
-  GPU: Adreno 506 / Mali-G52 
-  Storage: 300 MB 
-  Screen Resolution: 720p minimum 
+### Minimum: 
+- **OS:** Android 10+ 
+- **Processor:** Quad-core 1.8 GHz (Snapdragon 450 / Helio P22) 
+- **Memory:** 3 GB RAM
+- **Graphics:** Adreno 506 / Mali-G52 
+- **Storage:** 300 MB 
+- **Screen Resolution:** 720p minimum 
 
 
 ## How to contribute

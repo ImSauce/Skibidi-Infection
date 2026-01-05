@@ -6,6 +6,18 @@
 ## Description
 This visual novel learning mobile game was created for educational purposes only. The application was developed using the Flutter framework. Its purpose is to help young users learn basic English grammar, science facts, and math equations while progressing through the game's story and interacting with the characters in the game. [Download](https://imsauce.github.io/Sauce/html/skibidi.html)
 
+
+### Genre
+
+![Visual Novel](https://img.shields.io/badge/Action-2D2D2D?style=flat-square)
+![Fantasy](https://img.shields.io/badge/Fantasy-2D2D2D?style=flat-square)
+![2D](https://img.shields.io/badge/2D-2D2D2D?style=flat-square)
+![Story Rich](https://img.shields.io/badge/Story--Driven-2D2D2D?style=flat-square)
+![Educational](https://img.shields.io/badge/Typing_Game-2D2D2D?style=flat-square)
+![Single Player](https://img.shields.io/badge/Single_Player-2D2D2D?style=flat-square)
+
+
+
 ## Screenshots
 <div style="display: flex; gap: 10px;">
     <img src="screenshots/Picture1.png" alt="Home" style="width: 200px; " />
@@ -19,15 +31,14 @@ This visual novel learning mobile game was created for educational purposes only
  <img src="screenshots/Picture3.png" alt="controls" style="width:500px; " />
  
 
-## How to run
-
-- Install Android Studio/Visual Studio Code
-- Ensure that you had installed flutter sdk
-- Ensure that you had installed dart
-- Install any android emulator to your liking
-- Run Skibidi Infection
-
-
+## System Requirments
+  Minimum: 
+  OS: Android 10+ 
+  CPU: Quad-core 1.8 GHz (Snapdragon 450 / Helio P22) 
+  RAM: 3 GB 
+  GPU: Adreno 506 / Mali-G52 
+  Storage: 300 MB 
+  Screen Resolution: 720p minimum 
 
 
 ## How to contribute
